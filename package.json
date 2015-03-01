@@ -1,15 +1,16 @@
 {
-  "name": "package-list-disable",
+  "name": "package-list",
   "main": "./lib/main",
-  "version": "1.0.0",
-  "description": "Example package to open any HTML in a tab.",
-  "activationEvents": ["package-list-disable:open"],
-  "repository": "https://github.com/mark-hahn/package-list-disable",
+  "version": "0.1.0",
+  "description": "Show installed packages in one compact list and enable/disable with one click.",
+  "activationEvents": ["package-list:open"],
+  "repository": "https://github.com/mark-hahn/package-list",
   "license": "MIT",
   "engines": {
     "atom": ">0.170.0"
   },
   "dependencies": {
-    "atom-space-pen-views": "^2.0.3"
+    "atom-space-pen-views": "^2.0.3",
+    "sub-atom": "*"
   }
 }

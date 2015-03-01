@@ -1,14 +1,14 @@
 
 # lib/main
 
-HtmlTab = require './package-list-disable'
-{CompositeDisposable} = require 'atom'
+ListItem = require './list-item'
+SubAtom  = require 'sub-atom'
 
 module.exports =
   activate: -> 
-    @subs = new CompositeDisposable
-    @subs.add atom.commands.add 'atom-workspace', 'package-list-disable:open': ->
-      atom.workspace.getActivePane().activateItem new HtmlTab "I'm Alive!"
+    @subs = new SubAtom
+    @subs.add atom.commands.add 'atom-workspace', 'package-list:open': ->
+      atom.workspace.getActivePane().activateItem new ListItem "Installed Packages"
 
   deactivate: ->
     @subs.dispose()

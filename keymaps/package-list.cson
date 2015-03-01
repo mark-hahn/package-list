@@ -1,0 +1,4 @@
+
+'.workspace':
+  'ctrl-alt-P': 'package-list:open'
+
