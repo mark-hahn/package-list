@@ -7,7 +7,7 @@ A simple package to list all installed packages in one tab. It uses multiple col
 ## Usage
   
 - Install with `apm install package-list`
-- Press `ctrl-5` (command `package-list:open`) to open list
+- Use command `package-list:open` to open the list. `ctrl-5` (digit five) is bound by default.
 - Click on package to enable/disable
 - Ctrl-click to open package web page docs
   - Will show web page inside of Atom if `web-browser` package installed
