@@ -8,7 +8,7 @@ module.exports =
   activate: -> 
     @subs = new SubAtom
     @subs.add atom.commands.add 'atom-workspace', 'package-list:open': ->
-      atom.workspace.getActivePane().activateItem new ListItem "Installed Packages"
+      atom.workspace.getActivePane().activateItem new ListItem "Package List"
 
   deactivate: ->
     @subs.dispose()
