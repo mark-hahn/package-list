@@ -2,7 +2,7 @@
   "name": "package-list",
   "main": "./lib/main",
   "version": "0.1.0",
-  "description": "Show installed packages in one compact list and enable/disable with one click.",
+  "description": "Show all installed packages in compact list and enable/disable, view docs, or uninstall in one click",
   "activationEvents": ["package-list:open"],
   "repository": "https://github.com/mark-hahn/package-list",
   "license": "MIT",
