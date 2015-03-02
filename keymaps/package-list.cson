@@ -1,4 +1,4 @@
 
 '.workspace':
-  'ctrl-alt-shift-p': 'package-list:open'
+  'ctrl-5': 'package-list:open'
 
